@@ -3,21 +3,25 @@ body {
   padding: 32px;
   font-family:Arial;
   font-size: 16px;
-  background-color: gray;
 }
 
-.head {
+.setup,.puzzle {
   padding: 16px;
   margin-bottom: 32px;
-  h1 {
+  h2 {
     margin: 0px;
   }
 }
 
-.body {
+.setup {
   background-color: lightgray;
   border: 1px solid black;
 }
-.sp{
-  color: red;
+.puzzle {
+  background-color: lightpink;
+  border:1px solid red;
+}
+.solved{
+  background-color: lightgreen;
+  border:1px solid green;
 }
